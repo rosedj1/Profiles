@@ -120,3 +120,5 @@ autocmd vimenter * NERDTree
 let g:NERDTreeDirArrows=0                                           
 set encoding=utf-8
 "set clipboard=unnamed
+" Turn off highlight search
+set nohlsearch

@@ -29,7 +29,7 @@ parse_git_branch() {
 #export PS1="\[\e[1;31m\]\u@\h\[\e[00m\] on \[\e[1;32m\]`parse_git_branch`\[\e[00m\]: \[\e[1;35m\]\W~$ \[\e[00m\]"
 #export PS1="\[\e[1;31m\]\u@\h:\[\e[1;35m\]\W~$ \[\e[00m\]"
 NDIRS=3
-export PS1='\[\e[1;31m\]\u:\[\e[1;35m\]`echo $PWD | grep -E -o "(/[^/]*){\$NDIRS}$" | sed "s|$|/|"`$ \[\e[00m\]'
+export PS1='\[\e[1;31m\]\h:\[\e[1;35m\]`echo $PWD | grep -E -o "(/[^/]*){\$NDIRS}$" | sed "s|$|/|"`$ \[\e[00m\]'
 export SCRAM_ARCH=slc6_amd64_gcc530
 export VO_CMS_SW_DIR=/cvmfs/cms.cern.ch
 . $VO_CMS_SW_DIR/cmsset_default.sh

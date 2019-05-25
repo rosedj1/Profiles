@@ -111,7 +111,14 @@ alias exit='pwd; exit'
 alias public="cd /home/rosedj1/public_html"
 alias macros="cd /raid/raid7/rosedj1/DarkZ/macros/"
 alias DavidHelpMe="cd /home/rosedj1/DavidsTutorials/"
-alias raid="cd /raid/raid7/rosedj1/DarkZ/macros/DeltaRPlotter/"
+alias HelpKun="cd /home/kshi/SUSY/CMSSW_8_0_25/src/"
+
+alias raid5="cd /raid/raid5/rosedj1/"
+alias raid6="cd /raid/raid6/rosedj1/"
+alias raid7="cd /raid/raid7/rosedj1/"
+alias raid8="cd /raid/raid8/rosedj1/"
+alias raid9="cd /raid/raid9/rosedj1/"
+alias freshcmssw8010="cd /home/rosedj1/CleanCMSSWenvironments/CMSSW_8_0_10/src/; cmsenv; cd -"
 alias freshcmssw942="cd /home/rosedj1/CleanCMSSWenvironments/CMSSW_9_4_2/src/; cmsenv; cd -"
 
 alias DarkZLiteAna="cd /home/rosedj1/UFPyNTupleRunner/CMSSW_9_4_4/src/DarkZLiteAnalyzer/"
@@ -122,6 +129,7 @@ alias DarkZevtgen942="cd /home/rosedj1/DarkZ-EvtGeneration/CMSSW_9_4_2/src/DarkZ
 alias MadGraph="cd /home/rosedj1/DarkZ-EvtGeneration/CMSSW_9_4_2/src/DarkZ-EvtGeneration/genproductions/bin/MadGraph5_aMCatNLO"
 alias JHUGen="cd /home/rosedj1/DarkZ-EvtGeneration/CMSSW_9_4_2/src/DarkZ-EvtGeneration/genproductions/bin/JHUGen"
 alias POWHEG="cd /home/rosedj1/DarkZ-EvtGeneration/CMSSW_9_4_2/src/DarkZ-EvtGeneration/genproductions/bin/Powheg"
+alias PlayWithMG="cd /home/rosedj1/DarkZ-EvtGeneration/CMSSW_9_4_2/src/DarkZ-EvtGeneration/genproductions/bin/MadGraph5_aMCatNLO/all_ppToZZd_cards/ppToZZd_cards_eps1e-2_MZD15/HAHM_variablesw_v3/HAHM_variablesw_v3_gridpack/work/"
 
 alias genprod="cd /home/rosedj1/genproductions/genproductions/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/Higgs/HToZZdTo4L_M125_MZd20_eps1e-2_13TeV_madgraph_pythia8/"
 alias pregenprod="cd /home/rosedj1/genproductions/genproductions/bin/MadGraph5_aMCatNLO/cards/production/pre2017/13TeV/Higgs/HToZZdTo4L_M125_MZd20_eps1e-2_13TeV_madgraph_pythia8/"
@@ -134,6 +142,11 @@ alias PyNTuple="cd /home/rosedj1/UFPyNTupleRunner/CMSSW_9_4_4/src/UF-PyNTupleRun
 alias Significance="cd /home/rosedj1/UFPyNTupleRunner/CMSSW_9_4_4/src/UF-PyNTupleRunner/HToZdZd/Significance/"
 alias HZZLiteAna='cd /home/rosedj1/UFPyNTupleRunner/CMSSW_9_4_4/src/UFHZZLiteAnalyzer/'
 
+alias Higgs8010="cd /home/rosedj1/HiggsMeasurement/CMSSW_8_0_10/src/"
 alias Higgs8032="cd /home/rosedj1/HiggsMeasurement/CMSSW_8_0_32/src/"
 alias Higgs1025="cd /home/rosedj1/HiggsMeasurement/CMSSW_10_2_5/src/"
+alias HiggsPlots="cd /home/rosedj1/public_html/Higgs/HiggsMassMeas/"
 
+function fullpath { 
+    echo "`pwd`/${1}" 
+}
